@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    margin: 0;
+    font-family:'Karla';
+}
+h4{
+    font-weight:600;
+    margin-top: 0;
+    margin-bottom:0;
+}
+p{
+    color:#848484;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+/* ANFANG HEADER & NAV */
+nav{
+    display:flex;
+    align-items:baseline;
+    padding-top: 2%;
+}
+nav > h1{
+    margin: 0;
+    padding-left: 5%;
+}
+nav > ul{
+    display:flex;
+    list-style:none;
+    margin: 0;
+    padding-left: 53%;
+    width:500px;
+}
+nav > ul > li{
+    padding-left:14.5%;
+}
+nav > ul > li > a{
+    text-decoration:none;
+    color:#323a45;
+}
+
+/* ENDE HEADER & NAV */
+
+/* ANFANG MAIN + SECTION */
+
+main{
+    padding-top: 5%;
+}
+#sec1{
+    display:grid;
+    grid-template-columns: 5% 29.5% 1% 29.5% 1% 29.5% 5%;
+}
+/* Bild 1 Rucksack groß */
+
+#sec1 > .img1{
+    grid-column:2/7;
+}
+#sec1 > .img1text{
+    grid-column:2/3;
+    grid-row:2/3
+}
+#sec1 > .img1price{
+    grid-column:5/7;
+    grid-row: 2/3;
+    justify-self: end;
+}
+/* Bild 2 Desktop Lampe klein */
+
+#sec1 > .img2{
+    grid-column:2/3;
+}
+#sec1 > .img2text{
+    grid-column:2/3;
+    grid-row: 4/5;
+}
+#sec1 > .img2price{
+    grid-column:2/3;
+    grid-row: 4/5;
+    justify-self:end;
+}
+
+/* Bild 3 Rucksack */
+
+#sec1 > .img3{
+    grid-column:4/5;
+}
+#sec1 > .img3text{
+    grid-column:4/5;
+    grid-row: 4/5;
+}
+#sec1 > .img3price{
+    grid-column:4/5;
+    grid-row: 4/5;
+    justify-self:end;
+}
+
+/* Bild 4 Longboard */
+
+#sec1 > .img4{
+    grid-column:6/7;
+}
+#sec1 > .img4text{
+    grid-column:6/7;
+    grid-row: 4/5;
+}
+#sec1 > .img4price{
+    grid-column:6/7;
+    grid-row: 4/5;
+    justify-self:end;
+}
+
+/* Bild 5 schwarze Kanne */
+
+#sec1 > .img5{
+    grid-column:2/3;
+}
+#sec1 > .img5text{
+    grid-column:2/3;
+    grid-row: 6/7;
+}
+#sec1 > .img5price{
+    grid-column:2/3;
+    grid-row: 6/7;
+    justify-self:end;
+}
+
+/* Bild 6 Holzauto */
+
+#sec1 > .img6{
+    grid-column:4/5;
+}
+#sec1 > .img6text{
+    grid-column:4/5;
+    grid-row: 6/7;
+}
+#sec1 > .img6price{
+    grid-column:4/5;
+    grid-row: 6/7;
+    justify-self:end;
+}
+
+/* Bild 7 Logo Buch */
+
+#sec1 > .img7{
+    grid-column:6/7;
+}
+#sec1 > .img7text{
+    grid-column:6/7;
+    grid-row: 6/7;
+}
+#sec1 > .img7price{
+    grid-column:6/7;
+    grid-row: 6/7;
+    justify-self:end;
+}
+
+/* Bild 8 Buch groß */
+
+#sec1 > .img8{
+    grid-column:2/7;
+}
+#sec1 > .img8text{
+    grid-column:2/3;
+}
+#sec1 > .img8price{
+    grid-column:5/7;
+    justify-self: end;
+
+}
+
+/* Bild 9 The Eye Buch */
+
+#sec1 > .img9{
+    grid-column:2/3;
+}
+#sec1 > .img9text{
+    grid-column:2/3;
+    grid-row: 10/11;
+}
+#sec1 > .img9price{
+    grid-column:2/3;
+    grid-row: 10/11;
+    justify-self:end;
+}
+
+/* Bild 10 Organizer */
+
+#sec1 > .img10{
+    grid-column:4/5;
+}
+#sec1 > .img10text{
+    grid-column:4/5;
+    grid-row: 10/11;
+}
+#sec1 > .img10price{
+    grid-column:4/5;
+    grid-row: 10/11;
+    justify-self:end;
+}
+
+/* Bild 11 Thermoskanne schwarz */
+
+#sec1 > .img11{
+    grid-column:6/7;
+}
+#sec1 > .img11text{
+    grid-column:6/7;
+    grid-row: 10/11;
+}
+#sec1 > .img11price{
+    grid-column:6/7;
+    grid-row: 10/11;
+    justify-self:end;
+}
+
+/* Bild 12 Bürostuhl */
+
+#sec1 > .img12{
+    grid-column:2/3;
+}
+#sec1 > .img12text{
+    grid-column:2/3;
+    grid-row: 12/13;
+}
+#sec1 > .img12price{
+    grid-column:2/3;
+    grid-row: 12/13;
+    justify-self:end;
+}
+
+/* Bild 13 Notizbuch */
+
+#sec1 > .img13{
+    grid-column:4/5;
+}
+#sec1 > .img13text{
+    grid-column:4/5;
+    grid-row: 12/13;
+}
+#sec1 > .img13price{
+    grid-column:4/5;
+    grid-row: 12/13;
+    justify-self:end;
+}
+
+/* Bild 14 From Japan Buch */
+
+#sec1 > .img14{
+    grid-column:6/7;
+}
+#sec1 > .img14text{
+    grid-column:6/7;
+    grid-row: 12/13;
+}
+#sec1 > .img14price{
+    grid-column:6/7;
+    grid-row: 12/13;
+    justify-self:end;
+}
+
+/* Bild 15 Desktop Lampe groß */
+
+#sec1 > .img15{
+    grid-column:2/7;
+}
+#sec1 > .img15text{
+    grid-column:2/3;
+}
+#sec1 > .img15price{
+    grid-column:5/7;
+    justify-self: end;
+
+}
+
+/* Bild 16 Uhr */
+
+#sec1 > .img16{
+    grid-column:2/3;
+}
+#sec1 > .img16text{
+    grid-column:2/3;
+    grid-row: 16/17;
+}
+#sec1 > .img16price{
+    grid-column:2/3;
+    grid-row: 16/17;
+    justify-self:end;
+}
+
+/* Bild 17 Poster */
+
+#sec1 > .img17{
+    grid-column:4/5;
+}
+#sec1 > .img17text{
+    grid-column:4/5;
+    grid-row: 16/17;
+}
+#sec1 > .img17price{
+    grid-column:4/5;
+    grid-row: 16/17;
+    justify-self:end;
+}
+
+/* Bild 18 Kaffeedose */
+
+#sec1 > .img18{
+    grid-column:6/7;
+}
+#sec1 > .img18text{
+    grid-column:6/7;
+    grid-row: 16/17;
+}
+#sec1 > .img18price{
+    grid-column:6/7;
+    grid-row: 16/17;
+    justify-self:end;
+}
+
+/* Bild 19 Headphones */
+
+#sec1 > .img19{
+    grid-column:2/3;
+}
+#sec1 > .img19text{
+    grid-column:2/3;
+    grid-row: 18/19;
+}
+#sec1 > .img19price{
+    grid-column:2/3;
+    grid-row: 18/19;
+    justify-self:end;
+}
+
+/* Bild 20 Make it Now Buch */
+
+#sec1 > .img20{
+    grid-column:4/5;
+}
+#sec1 > .img20text{
+    grid-column:4/5;
+    grid-row: 18/19;
+}
+#sec1 > .img20price{
+    grid-column:4/5;
+    grid-row: 18/19;
+    justify-self:end;
+}
+
+/* Bild 21 Stuhl */
+
+#sec1 > .img21{
+    grid-column:6/7;
+}
+#sec1 > .img21text{
+    grid-column:6/7;
+    grid-row: 18/19;
+}
+#sec1 > .img21price{
+    grid-column:6/7;
+    grid-row: 18/19;
+    justify-self:end;
+}
+
+/* Bild 22 blaues Buch groß */
+
+#sec1 > .img22{
+    grid-column:2/7;
+}
+#sec1 > .img22text{
+    grid-column:2/3;
+}
+#sec1 > .img22price{
+    grid-column:5/7;
+    justify-self: end;
+
+}
+
+/* Bild 23 Grid Systems Buch */
+
+#sec1 > .img23{
+    grid-column:2/3;
+}
+#sec1 > .img23text{
+    grid-column:2/3;
+    grid-row: 22/23;
+}
+#sec1 > .img23price{
+    grid-column:2/3;
+    grid-row: 22/23;
+    justify-self:end;
+}
+
+/* Bild 24 Wallet */
+
+#sec1 > .img24{
+    grid-column:4/5;
+}
+#sec1 > .img24text{
+    grid-column:4/5;
+    grid-row: 22/23;
+}
+#sec1 > .img24price{
+    grid-column:4/5;
+    grid-row: 22/23;
+    justify-self:end;
+}
+
+/* Bild 25 Classic Advice Buch */
+
+#sec1 > .img25{
+    grid-column:6/7;
+}
+#sec1 > .img25text{
+    grid-column:6/7;
+    grid-row: 22/23;
+}
+#sec1 > .img25price{
+    grid-column:6/7;
+    grid-row: 22/23;
+    justify-self:end;
+}
+
+/* Bild 26 Magic Mouse */
+
+#sec1 > .img26{
+    grid-column:2/3;
+}
+#sec1 > .img26text{
+    grid-column:2/3;
+    grid-row: 24/25;
+}
+#sec1 > .img26price{
+    grid-column:2/3;
+    grid-row: 24/25;
+    justify-self:end;
+}
+
+/* Bild 27 Travel Thumbler */
+
+#sec1 > .img27{
+    grid-column:4/5;
+}
+#sec1 > .img27text{
+    grid-column:4/5;
+    grid-row: 24/25;
+}
+#sec1 > .img27price{
+    grid-column:4/5;
+    grid-row: 24/25;
+    justify-self:end;
+}
+
+/* Bild 28 Keyboard */
+
+#sec1 > .img28{
+    grid-column:6/7;
+}
+#sec1 > .img28text{
+    grid-column:6/7;
+    grid-row: 24/25;
+}
+#sec1 > .img28price{
+    grid-column:6/7;
+    grid-row: 24/25;
+    justify-self:end;
+}
+
+/* Bild 29 Kannen b/w */
+
+#sec1 > .img29{
+    grid-column:2/7;
+}
+#sec1 > .img29text{
+    grid-column:2/3;
+}
+#sec1 > .img29price{
+    grid-column:6/7;
+    justify-self:end;
+}
+
+/* Bild 30 Kanne grau */
+
+#sec1 > .img30{
+    grid-column:2/3;
+}
+#sec1 > .img30text{
+    grid-column:2/3;
+    grid-row:28/29;
+}
+#sec1 > .img30price{
+    grid-column:2/3;
+    grid-row:28/29;
+    justify-self:end;
+}
+
+/* Bild 31 Sessel */
+
+#sec1 > .img31{
+    grid-column:4/5;
+}
+#sec1 > .img31text{
+    grid-column:4/5;
+    grid-row:28/29;
+}
+#sec1 > .img31price{
+    grid-column:4/5;
+    grid-row:28/29;
+    justify-self:end;
+}
+
+/* Bild 32 Karaffe */
+
+#sec1 > .img32{
+    grid-column:6/7;
+}
+#sec1 > .img32text{
+    grid-column:6/7;
+    grid-row:28/29;
+}
+#sec1 > .img32price{
+    grid-column:6/7;
+    grid-row:28/29;
+    justify-self:end;
+}
+
+/* ENDE MAIN + SECTION */
+
+/* ANFANG FOOTER */
+
+footer{
+    padding-top: 50px;
+    display:grid;
+    grid-template-columns: 5% 31% 15% 20% 5%;
+}
+footer > .column1{
+    grid-column:2/3
+}
+footer > .column1 > h4{
+    padding-bottom:40px;
+}
+footer > .column2 {
+    grid-column:3/4;
+}
+footer > .column2 > h4{
+    padding-bottom:40px;
+}
+footer > .column2 > a{
+    text-decoration: none;
+    color:#848484;
+}
+footer > .column3{
+    grid-column:4/5;
+}
+footer > .column3 > h4{
+    padding-bottom:40px;
+}
+footer > .column3 > p{
+    padding-bottom:0;
+    margin: 0;
+}
+footer > .column3 > p > b > a{
+    text-decoration: none;
+    color: #323A45;
+    
+}
+footer > .column4 > h4{
+    padding-bottom:40px;
+}
+footer > .column4 > a{
+    text-decoration: none;
+    color: #323A45;
+}
+
+/* ENDE FOOTER */
+
+/* ANFANG MEDIA QUERY 768px */
+
+@media (max-width: 768px) {
+    nav > ul{
+        display: inline-block;
+    }
+    #sec1{
+        display: inline-block;
+    }
+    p {
+        padding:0;
+    }
+    footer{
+        display:grid;
+        grid-template-columns: 40% 18% 27% 15%;
+    }
+    footer > .column1{
+        grid-column:1/2;
+    }
+    footer > .column2{
+        grid-column:2/3;
+        justify-self: center;
+    }
+    footer > .column3{
+        grid-column:3/4;
+    }
+    footer > .column4{
+        grid-column:4/5;
+        justify-self: center;
+    }
+    footer > .column4 > a{
+        display: block;
+    }
+}
+
+/* ENDE MEDIA QUERY 768px */
+
+/* ANFANG MEDIA QUERY 425px*/
+
+@media (max-width:425px){
+    header > nav > h1{
+        padding: 0;
+    }
+    header > nav > ul{
+        padding-left: 95px;
+    }
+    header > nav > ul > li{
+        padding-bottom: 5px;
+    }
+    footer{
+        display:block;
+    }
+    footer > .column1 > h4{
+        padding-bottom:10px;
+    }
+    footer > .column2 > h4{
+        padding-bottom:10px;
+    }
+    footer > .column3 > h4{
+        padding-top:20px;
+        padding-bottom:10px;
+    }
+    footer > .column4 > h4{
+        padding-top:20px;
+        padding-bottom: 10px;
+    }
+}
+
+/* ENDE MEDIA QUERY 425px */
+
