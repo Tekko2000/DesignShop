@@ -13,6 +13,18 @@ p{
     margin-top: 0;
     padding-bottom: 50px;
 }
+a{
+    text-decoration: none;
+    color:#323A45
+}
+a:hover{
+    color:#848484;
+}
+img:hover{
+    box-shadow: 0px 0px 0px 200px rgba(245,239,239,0.52) inset;
+    -webkit-box-shadow: 0px 0px 0px 200px rgba(245,239,239,0.52) inset;
+    -moz-box-shadow: 0px 0px 0px 200px rgba(245,239,239,0.52) inset;
+}
 
 /* ANFANG HEADER & NAV */
 nav{
@@ -37,6 +49,10 @@ nav > ul > li{
 nav > ul > li > a{
     text-decoration:none;
     color:#323a45;
+}
+nav > ul > li > a:hover{
+    text-decoration:none;
+    color:#848484;
 }
 
 /* ENDE HEADER & NAV */
@@ -545,10 +561,6 @@ footer > .column2 {
 footer > .column2 > h4{
     padding-bottom:40px;
 }
-footer > .column2 > a{
-    text-decoration: none;
-    color:#848484;
-}
 footer > .column3{
     grid-column:4/5;
 }
@@ -559,17 +571,8 @@ footer > .column3 > p{
     padding-bottom:0;
     margin: 0;
 }
-footer > .column3 > p > b > a{
-    text-decoration: none;
-    color: #323A45;
-    
-}
 footer > .column4 > h4{
     padding-bottom:40px;
-}
-footer > .column4 > a{
-    text-decoration: none;
-    color: #323A45;
 }
 
 /* ENDE FOOTER */
@@ -577,6 +580,9 @@ footer > .column4 > a{
 /* ANFANG MEDIA QUERY 768px */
 
 @media (max-width: 768px) {
+    header > nav > h1{
+        padding: 0;
+    }
     nav > ul{
         display: inline-block;
     }
